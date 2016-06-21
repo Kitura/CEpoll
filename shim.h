@@ -14,7 +14,9 @@
  * limitations under the License.
  **/
 
-module CSocketUtilities {
-    header "shim.h"
-    export *
-}
+#ifndef SocketUtilities_h
+#define SocketUtilities_h
+
+#include <sys/epoll.h>
+
+#endif /* SelectUtilities_h */
