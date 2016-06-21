@@ -17,6 +17,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "CSocketUtilities",
+    name: "CEpoll",
     dependencies: [ ])
 
