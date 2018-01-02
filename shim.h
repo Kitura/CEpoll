@@ -18,5 +18,6 @@
 #define SocketUtilities_h
 
 #include <sys/epoll.h>
+#include <sys/timerfd.h>
 
 #endif /* SelectUtilities_h */
